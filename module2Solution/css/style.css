@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size: 100%;
+	font: inherit;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial, courier, times;
+	font-size: 120%;
+	height: 100vh;
+	/*padding:0 2px;*/
+}
+header{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+
+}
+
+header h1{
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+section{
+	background-color: #AAAAAA;	
+	float:left;
+	display: inline-block;
+	border:1px solid black;	 
+	
+}
+
+h2{
+	float: right;
+	padding: 5px 25px;
+	font-size: 1.25em;
+	border:1px solid black;
+	font-weight: 600;
+}
+
+p{
+	clear:right;
+	padding: 3px 10px;
+	line-height: 25px;
+}
+
+section:first-child h2{
+	background-color: #E88F7E;
+}
+section:nth-child(2) h2{
+	background-color: #E23A3A;
+	color: #fff;
+
+}
+section:last-child h2{
+	background-color: #EAC172;
+
+}
+
+@media screen and (max-width: 767px){ /*less than 767*/
+	
+		section{
+			width: 90%;
+			margin:0px 5% 3% 5%;
+		}
+}
+@media screen and (min-width: 992px){ /*greater than 992*/
+	section:first-child{
+		margin-left: 3%
+
+	}
+	section{
+		width: 30%;
+		margin:0px 1%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	/*less than 991 and greater than 768*/
+		section:first-child{
+				width:47%;
+				margin-left:2%;
+				margin-right:1%;
+		}
+		section:nth-child(2){
+				width:47%;
+				margin-right:2%;
+				margin-left:1%;				
+		}
+		section:last-child{
+				width:96%;
+				margin-left:2%;	
+				margin-top:3%;			
+		}
+
+
+}
+	
+
+
+
