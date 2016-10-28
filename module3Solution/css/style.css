@@ -1,0 +1,69 @@
+body{
+	background-color: #EFEDED;  /* grey */
+	font-family: "Comic Sans MS", Calibri, "Lucida Sans";
+	font-size: 16px; 
+}
+.navbar-default{
+	background-color: #EFEDED;
+	border:none;
+
+}
+.navbar-header {  /*navbar header*/
+	color:#000;
+	background: #456493;
+}
+.navbar-default .navbar-brand{
+	color: #000;
+}
+.navbar-default.navbar-brand:hover{  /*navbar header*/
+	color: #fff;
+}
+
+.navbar-collapse{
+	background-color: #AFADAD;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#000;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#fff;
+}
+.navbar-brand{
+	font-size: 1.8em;	
+	background: #456493;		
+	 background: -webkit-linear-gradient(top, #456493,#AFADAD,#456493); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(top, #456493,#AFADAD, #456493); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(top, #456493,#AFADAD, #456493); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(top, #456493,#AFADAD, #456493); /* Standard syntax */
+	border-color: #0468FF;
+}
+.nav.navbar-nav{
+	font-size: 1.0em;
+}
+
+h2{
+	font-size: 1.7em;
+	margin-bottom: 40px;
+}
+
+section{
+	background-color: #AFADAD;
+	border-radius: 15px;
+	margin-bottom: 30px;
+
+}
+
+section p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section h3{
+	font-size: 1.4em;
+	padding:10px;
+}
+
+@media screen and (min-width: 768px){
+	.container-fluid{
+		padding-right: 0px;
+	}	
+}
